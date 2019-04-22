@@ -1,0 +1,80 @@
+* {
+    font-family: 'Gloria Hallelujah', cursive, sans-serif;
+}
+
+body {
+    background-color: #fafafa;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin: 0;
+}
+
+.container {
+    max-width: 1260px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.intro {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-image: url('assets/sleep.jpeg');
+    background-position: center center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    justify-content: center;
+    margin: 10px 0;
+    padding: 20px 20px 60px 20px;
+}
+
+.question {
+    color: #fff;
+    margin: 10px auto;
+    font-size: 30px;
+    position: relative;
+    top: 0;
+    text-shadow: 0 2px 4px #000;
+}
+
+.prompt {
+    text-align: center;
+    padding: 20px 0;
+    font-size: 28px;
+}
+
+.cta {
+    width: auto;
+    margin: 10px auto;
+    height: auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    border-radius: 3px;
+    border: none;
+    background-color: #F4D35E;
+    color: #333;
+    transition: .5s;
+}
+
+.cta:hover {
+    cursor: pointer;
+    background-color: #D6B953;
+}
+
+.video {
+    text-align: center;
+}
+
+.video video {
+    position: relative;
+    margin: 0 auto;
+}
