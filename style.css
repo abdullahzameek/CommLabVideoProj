@@ -71,10 +71,23 @@ body {
 }
 
 .video {
+    transform: translate(0px, 30px);
     text-align: center;
 }
 
+.video main {
+    transform: translate(0px, 30px);
+    text-align: center;
+
+}
+
 .video video {
-    position: relative;
+    position: absolute;
     margin: 0 auto;
+    opacity: 0.9;
+    
+}
+
+.sketch{
+    z-index: 99999;
 }

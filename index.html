@@ -4,6 +4,11 @@
     <title>VideoProject</title>
     <link href="https://fonts.googleapis.com/css?family=Gloria+Hallelujah" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="js/lib/p5.min.js"></script>
+    <script src="js/lib/ml5.min.js"></script>
+    <script src="js/lib/p5.dom.min.js"></script>
+    <script src="js/lib/p5.sound.min.js"></script>
+    <script src="js/sketch.js"></script>
 </head>
 
 <body>
@@ -12,18 +17,23 @@
         <button class="cta" type="button" onclick="scrollthis();">Watch Now</button>
     </div>
     
+
+    
     <div class="video" id="video">
+        <div id="sketch">
         <video id="main" width="100%" height="700" controls>
             <source src="assets/reverse.ogv" type="video/ogg">
             Your browser does not support the video tag.
         </video>
+        </div>
     </div>
 
     <div class="section" id="section">
         <button class="cta" type="button" id="scroll" onclick="toggle()">Switch between Dream and Reality</button>
     </div>
-
+    
     <script src="js/script.js"></script>
+
 </body>
 
 </html>
