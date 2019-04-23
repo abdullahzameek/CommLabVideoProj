@@ -77,4 +77,5 @@ body {
 .video video {
     position: relative;
     margin: 0 auto;
+    transform: translate(0,30px);
 }
