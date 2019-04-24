@@ -11,7 +11,7 @@ function toggle(){
     if(!dream){
         curTime = currentStream.currentTime;
         currentStream.pause();
-        currentStream.src = "assets/forwards.ogv"
+        currentStream.src = "assets/v1.1_dream_final.mp4"
         currentStream.currentTime = curTime;
         currentStream.play();
         dream = !dream;
@@ -19,7 +19,7 @@ function toggle(){
     else{
         curTime = currentStream.currentTime;
         currentStream.pause();
-        currentStream.src = "assets/reverse.ogv"
+        currentStream.src = "assets/v1.1_normal.mp4"
         currentStream.currentTime = curTime;
         currentStream.play();
         dream = !dream;
